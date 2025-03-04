@@ -11,9 +11,9 @@ if(empty($userName)||empty($password)){
     
 }else{
     if($userName === User_Name && $password === Password){
-        echo "Your Login is Successful!";
+        echo "Success ! Your Login is Successfully";
     }
     else{
-        echo "Your User_Name or Password is incorrect";
+        echo "Failure! Your User_Name or Password is incorrect";
     }
 }
